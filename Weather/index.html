@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Full version of jQuery -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    
+</head>
+<body>
+
+    <div class="container">
+        <h1>Weather Report</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button type="button" onclick="getWeatherReport()">Check Weather</button>
+        <div id="city"></div>
+        <div id="country"></div>
+        <div id="main"></div>
+        <div id="temprature"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+    </body>
+</html>
